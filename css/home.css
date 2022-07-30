@@ -1,0 +1,62 @@
+body{
+    background-image: url(../image/image.jpg);
+    background-size: cover;
+}
+
+header{
+    margin-top: 100px;
+}
+
+header > img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 48px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000000;
+    box-shadow: rgb(25, 0, 255) 0px 2px 8px 0px;
+}
+
+header > h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: "Open Sans", sans-serif;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 15%;
+    text-align: center;
+}
+
+nav{
+    background-color: #E7DBDB;
+    height: 80px;
+    top: 0px;
+    position: fixed;
+    width: 101%;
+    left: -10px;
+}
+
+nav ul{
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 15px;
+    list-style: none;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
